@@ -9,23 +9,18 @@ defined('PHPWG_ROOT_PATH') or die('Hacking attempt!');
 class cookieconsent_maintain extends PluginMaintain
 {
   private $default_conf = array(
-    'option1' => 10,
-    'option2' => true,
-    'option3' => 'two',
+    'cc_fullscreen' => 0,
+    'cc_text' => "This website is using cookies.",
+    'cc_url' => 'https://www.cookielaw.org/the-cookie-law/',
     );
 
-  private $table;
-  private $dir;
 
   function __construct($plugin_id)
   {
     parent::__construct($plugin_id); // always call parent constructor
 
-    global $prefixeTable;
 
-    // Class members can't be declared with computed values so initialization is done here
-    $this->table = $prefixeTable . 'cookieconsent';
-    $this->dir = PHPWG_ROOT_PATH . PWG_LOCAL_DIR . 'cookieconsent/';
+
   }
 
   /**
@@ -49,36 +44,14 @@ class cookieconsent_maintain extends PluginMaintain
     {
       $old_conf = safe_unserialize($conf['cookieconsent']);
 
-      if (empty($old_conf['option3']))
+      /* if (empty($old_conf['cc_option']))
       { // use case: this parameter was added in a new version
-        $old_conf['option3'] = 'two';
-      }
+        $old_conf['cc_option'] = 'null';
+      } */
 
       conf_update_param('cookieconsent', $old_conf, true);
     }
 
-    // add a new table
-    pwg_query('
-CREATE TABLE IF NOT EXISTS `'. $this->table .'` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `field1` mediumint(8) DEFAULT NULL,
-  `field2` varchar(64) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8
-;');
-
-    // add a new column to existing table
-    $result = pwg_query('SHOW COLUMNS FROM `'.IMAGES_TABLE.'` LIKE "cookieconsent";');
-    if (!pwg_db_num_rows($result))
-    {
-      pwg_query('ALTER TABLE `' . IMAGES_TABLE . '` ADD `cookieconsent` TINYINT(1) NOT NULL DEFAULT 0;');
-    }
-
-    // create a local directory
-    if (!file_exists($this->dir))
-    {
-      mkdir($this->dir, 0755);
-    }
   }
 
   /**
@@ -125,19 +98,7 @@ CREATE TABLE IF NOT EXISTS `'. $this->table .'` (
     // delete configuration
     conf_delete_param('cookieconsent');
 
-    // delete table
-    pwg_query('DROP TABLE `'. $this->table .'`;');
-
-    // delete field
-    pwg_query('ALTER TABLE `'. IMAGES_TABLE .'` DROP `cookieconsent`;');
-
-    // delete local folder
-    // use a recursive function if you plan to have nested directories
-    foreach (scandir($this->dir) as $file)
-    {
-      if ($file == '.' or $file == '..') continue;
-      unlink($this->dir.$file);
-    }
-    rmdir($this->dir);
+    
   }
+
 }

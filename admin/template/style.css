@@ -1,7 +1,3 @@
-.square-list {
-  list-style:square !important;
-  margin-left:35px !important;
+INPUT[type="text"],TEXTAREA {
+	width:100%;
 }
-  .square-list li {
-    margin-bottom:0 !important;
-  }

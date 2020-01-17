@@ -1,0 +1,1 @@
+Dies ist ein grundlegendes Cookie-Zustimmungs-Plugin. Es zeigt dieses Zustimmungs-Popup einmal an. Vollständig anpassbar mit Text und URL.

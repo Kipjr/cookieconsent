@@ -1,4 +1,0 @@
-File automatically created from SVN repository.
-
-URL: http://piwigo.org/svn/extensions/cookieconsent/tags/2.7 
-Revision: 29772

@@ -11,21 +11,18 @@
 {/footer_script}
 
 {* <!-- add inline CSS --> *}
-{html_style}
+{* html_style}
   #cookieconsent {
     display:block;
   }
-{/html_style}
+{/html_style *}
 
 
 {* <!-- add page content here --> *}
-<h1>{'What CookieConsent can do for me?'|translate}</h1>
-<div id="CC">
-    <div id="closeCC">x</div>
-    This website is using cookies. <a href="#" target="_blank">More info</a>. <a class="CCOK">That's Fine</a>
+{if $cc_given !=1}
+<div id="CC" {if $cookieconsent.cc_fullscreen} style="min-height: 100%;" {else} style="min-height: 26px;"{/if} >
+    <div id="CC_block">
+		{$cookieconsent.cc_text} <a href={$cookieconsent.cc_url} target="_blank">{'More info'|translate}</a>. <a class="CCOK">{'Accept'|translate}</a>
+	</div>
 </div>
-<!--<blockquote>
-  {$INTRO_CONTENT}
-</blockquote>  -->
-
-<div id="button">{'Click for fun'|translate}</div>
+{/if}

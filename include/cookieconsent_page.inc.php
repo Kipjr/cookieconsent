@@ -1,12 +1,14 @@
 <?php
 defined('COOKIECONSENT_PATH') or die('Hacking attempt!');
 
-global $page, $template, $conf, $user, $tokens, $pwg_loaded_plugins;
+global $page, $template, $conf, $user, $tokens, $pwg_loaded_plugins, $cc_given;
 
 
-# DO SOME STUFF HERE... or not !
+$template->assign(array(
+  'cookieconsent' => $conf['cookieconsent']
+  ));
 
-
+$template->assign('cc_given',$cc_given);
 $template->assign(array(
   // this is useful when having big blocks of text which must be translated
   // prefer separated HTML files over big lang.php files

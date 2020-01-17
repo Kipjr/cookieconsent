@@ -5,12 +5,17 @@
  * formatted keys (eg "cookieconsent_check_button"), it would make your code more readable and help
  * the translation team as well
  */
+ 
+#config
 
-$lang['CookieConsent'] = 'CookieConsent';
-$lang['What CookieConsent can do for me?'] = 'Qu\'est-ce que CookieConsent peut faire pour moi ?';
-$lang['Check me!'] = 'Cliquez-moi !';
-$lang['Nothing appened, but you didn\'t check the box!'] = 'Rien ne s\'est passé, mais vous n\'avez pas coché la case !';
-$lang['Nothing appened, but you checked the box!'] = 'Rien ne s\'est passé, mais vous avez coché la case !';
 $lang['Common configuration'] = 'Configuration commune';
+$lang['Fullscreen'] = 'Plein écran';
+$lang['Full screen overlay'] = "Superposition plein écran au lieu d'une barre en bas de l'écran.";
+$lang['Message text'] = 'texte du message';
+$lang['URL'] = 'URL';
+$lang['Save Settings'] = 'enregistrer les paramètres';
+#popup
+$lang['More Info'] = "Plus d'informations";
+$lang['Accept'] = "J'accepte";
 
 ?>

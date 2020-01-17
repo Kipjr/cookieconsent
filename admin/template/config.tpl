@@ -1,9 +1,6 @@
 {combine_css path=$COOKIECONSENT_PATH|@cat:"admin/template/style.css"}
 
 {footer_script}
-jQuery('input[name="option2"]').change(function() {
-  $('.option1').toggle();
-});
 
 jQuery(".showInfo").tipTip({
   delay: 0,
@@ -16,7 +13,7 @@ jQuery(".showInfo").tipTip({
 
 
 <div class="titrePage">
-	<h2>CookieConsent</h2>
+	<h2>Cookie Consent</h2>
 </div>
 
 <form method="post" action="" class="properties">
@@ -26,21 +23,21 @@ jQuery(".showInfo").tipTip({
   <ul>
     <li>
       <label>
-        <input type="checkbox" name="option2" value="1" {if $cookieconsent.option2}checked="checked"{/if}>
-        <b>{'Checkbox'|translate}</b>
+        <input type="checkbox" name="cc_fullscreen" value="1" {if $cookieconsent.cc_fullscreen}checked="checked"{/if}>
+        <b>{'Fullscreen'|translate}</b>
       </label>
-      <a class="icon-info-circled-1 showInfo" title="{'Check me!'|translate}"></a>
+      <a class="icon-info-circled-1 showInfo" title="{'Full screen overlay'|translate}"></a>
     </li>
-    <li class="option1" {if not $cookieconsent.option2}style="display:none;"{/if}>
+    <li >
       <label>
-        <b>{'Integer'|translate}</b>
-        <input type="text" name="option1" value="{$cookieconsent.option1}" size="4">
+        <b>{'Message text'|translate}</b>
+        <textarea name="cc_text"  rows="4" cols="50" >{$cookieconsent.cc_text}</textarea>
       </label>
     </li>
-    <li>
+    <li >
       <label>
-        <b>{'Select'|translate}</b>
-        {html_options name=option3 options=$select_options selected=$cookieconsent.option3}
+        <b>{'URL'|translate}</b>
+        <input type="text" name="cc_url"  value="{$cookieconsent.cc_url}"</input>
       </label>
     </li>
   </ul>

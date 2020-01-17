@@ -1,0 +1,1 @@
+Dit is een vrij eenvoudige cookiewall. Het geeft eenmalig een popup weer. Bovendien kan de tekst en de URL aangepast worden naar wens.

@@ -1,5 +1,5 @@
 <?php
-define('PHPWG_ROOT_PATH', '../../');
+define('PHPWG_ROOT_PATH', '../../../');
 $json = file_get_contents('php://input');
 $data = json_decode($json);
 $array = (array) $data;

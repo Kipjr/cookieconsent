@@ -1,6 +1,6 @@
 #files
-.bak
-.swp
+*.bak
+*.swp
 
 #folders
 

@@ -5,7 +5,7 @@ Version: 2.10a
 Description: Cookie Consent 
 Plugin URI: https://piwigo.org/ext/extension_view.php?eid=888
 Author: Netcie / Kipjr
-Author URI: https://github.com/kipjr/pwg_cookieconsent
+Author URI: https://github.com/kipjr/cookieconsent
 */
 
 /**

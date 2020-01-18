@@ -12,6 +12,7 @@ $lang['Fullscreen'] = 'كامل الشاشة';
 $lang['Full screen overlay'] = 'تراكب ملء الشاشة بدلاً من شريط في أسفل الشاشة';
 $lang['Message text'] = 'رسالة نصية';
 $lang['URL'] = 'حلقة الوصل';
+$lang['Button text'] = 'نص';
 $lang['Save Settings'] = 'حفظ التغييرات';
 #popup
 $lang['More Info'] = 'معلومات اكثر';

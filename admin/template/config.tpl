@@ -36,6 +36,12 @@ jQuery(".showInfo").tipTip({
     </li>
     <li >
       <label>
+        <b>{'Button text'|translate}</b>
+        <input type="text" name="cc_button"  value="{$cookieconsent.cc_button}"</input>
+      </label>
+    </li>
+    <li >
+      <label>
         <b>{'URL'|translate}</b>
         <input type="text" name="cc_url"  value="{$cookieconsent.cc_url}"</input>
       </label>

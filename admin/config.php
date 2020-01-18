@@ -11,6 +11,7 @@ if (isset($_POST['save_config']))
   $conf['cookieconsent'] = array(
     'cc_fullscreen' => isset($_POST['cc_fullscreen']),
     'cc_text' => htmlspecialchars($_POST['cc_text']),
+    'cc_button' => htmlspecialchars($_POST['cc_button']),
     'cc_url' => htmlspecialchars($_POST['cc_url']),
     );
 	

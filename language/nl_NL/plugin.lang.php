@@ -12,6 +12,7 @@ $lang['Common configuration'] = 'Algemene instellingen';
 $lang['Fullscreen'] = 'Volledig scherm';
 $lang['Full screen overlay'] = 'Volledig scherm in plaats van een balk onderaan de pagina.';
 $lang['Message text'] = 'Tekst';
+$lang['Link text'] = 'Beschrijving Link';
 $lang['URL'] = 'Webadres';
 $lang['Save Settings'] = 'Opslaan';
 #popup

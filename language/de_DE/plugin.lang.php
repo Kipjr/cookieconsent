@@ -12,6 +12,7 @@ $lang['Common configuration'] = 'Gemeinsame Konfiguration';
 $lang['Fullscreen'] = 'Vollbild';
 $lang['Full screen overlay'] = 'Vollbild-Overlay anstelle einer Leiste am unteren Bildschirmrand.';
 $lang['Message text'] = 'Nachrichtentext';
+$lang['Button text'] = 'Beschriftung URL';
 $lang['URL'] = 'URL';
 $lang['Save Settings'] = 'Einstellungen speichern';
 #popup

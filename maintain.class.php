@@ -12,6 +12,7 @@ class cookieconsent_maintain extends PluginMaintain
     'cc_fullscreen' => 0,
     'cc_text' => "This website is using cookies.",
     'cc_url' => 'https://www.cookielaw.org/the-cookie-law/',
+    'cc_accept' => 'Accept',
     );
 
 

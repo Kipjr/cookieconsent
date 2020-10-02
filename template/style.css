@@ -51,6 +51,11 @@
     float: right;
     margin: 0 60px 0 10px;
 }
+#CC_block > a.CCOK > h1,h3 {
+    color: unset;
+}
+
+}
 #CC a.CCOK:hover {
     background-color: #E0C91F;
 }

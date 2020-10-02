@@ -22,7 +22,7 @@
 {if $cc_given !=1}
 <div id="CC" {if $cookieconsent.cc_fullscreen} style="min-height: 100%;" {else} style="min-height: 26px;"{/if} >
     <div id="CC_block">
-		{$cookieconsent.cc_text|unescape:'html'} <a href={$cookieconsent.cc_url} target="_blank">{$cookieconsent.cc_button}</a><a class="CCOK">{'Accept'|translate}</a>
+		{$cookieconsent.cc_text|unescape:'html'} <a href={$cookieconsent.cc_url} target="_blank">{$cookieconsent.cc_button|unescape:'html'}</a><a class="CCOK">{$cookieconsent.cc_accept|unescape:'html'}</a>
 	</div>
 </div>
 {/if}

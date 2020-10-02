@@ -17,4 +17,12 @@ Piwigo uses two types of cookies:
 
 The bold value in 'Server data' is due to this plugin. 
 
+___
+# Screenshots
+## Admin Configuration
+
+![image](https://user-images.githubusercontent.com/12066560/94938903-bb2e9400-04d1-11eb-889f-af164317d2e2.png)
+
+## Live
+![image](https://user-images.githubusercontent.com/12066560/94938785-99cda800-04d1-11eb-8da7-0e9595a8a81c.png)
 

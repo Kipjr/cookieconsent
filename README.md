@@ -1,5 +1,9 @@
 # pwg_cookieconsent
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=C7HN4VAGBTQFS&currency_code=EUR)
+
 Simple cookie consent for Piwigo
+
+
 
 Due to the recent GDPR / Cookie law , websites must show a banner when it uses cookies. This plugin might resolve some issues related to a missing banner/notification
 Please be aware that, for as far as I can see, it is not possible to disable cookies without impacting the functional aspects of Piwigo.

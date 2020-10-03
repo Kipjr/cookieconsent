@@ -1,6 +1,8 @@
 # pwg_cookieconsent
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=C7HN4VAGBTQFS&currency_code=EUR)
 
+<a href="https://www.buymeacoffee.com/kipjr" target="_blank"><img src="https://user-images.githubusercontent.com/12066560/94989781-8bd26280-0577-11eb-9482-26faff60e95d.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 Simple cookie consent for Piwigo
 
 

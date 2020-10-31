@@ -1,0 +1,1 @@
+Esto es un conector básico de consentimiento de cookies. Muestra este mensaje emergente de consentimiento una sola vez. Totalmente personalizable con texto y URL.

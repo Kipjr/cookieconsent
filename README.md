@@ -24,11 +24,20 @@ Piwigo uses two types of cookies. One additional persistent cookie (1y) can be s
 
 The bold value in 'Server data' is due to this plugin. 
 
+![image](https://user-images.githubusercontent.com/12066560/97817090-6336a900-1c9a-11eb-98b6-e0d43053e97f.png)
+
 ___
 # Screenshots
 ## Admin Configuration
 
+Pre 2.10f
+
 ![image](https://user-images.githubusercontent.com/12066560/94938903-bb2e9400-04d1-11eb-889f-af164317d2e2.png)
+
+2.10f
+
+![image](https://user-images.githubusercontent.com/12066560/97817021-09ce7a00-1c9a-11eb-9621-8e82f946c675.png)
+
 
 ## Live
 ![image](https://user-images.githubusercontent.com/12066560/94938785-99cda800-04d1-11eb-8da7-0e9595a8a81c.png)

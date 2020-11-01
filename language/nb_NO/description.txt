@@ -1,0 +1,1 @@
+Dette er et grunnleggende tillegsprogram for godkjenning av informasjonskapsler. Den viser godkjennings-popupen en gang. Fullt tilpasses med tekst og URL.

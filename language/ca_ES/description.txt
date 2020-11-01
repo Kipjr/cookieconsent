@@ -1,0 +1,1 @@
+Això és un connector bàsic de consentiment de galetes. Mostra aquest missatge emergent de consentiment un sol cop. Personalitzable totalment amb text i URL.

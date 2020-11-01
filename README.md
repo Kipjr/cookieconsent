@@ -1,5 +1,11 @@
 # pwg_cookieconsent
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=C7HN4VAGBTQFS&currency_code=EUR)
+
+<a href="https://www.buymeacoffee.com/kipjr" target="_blank"><img src="https://user-images.githubusercontent.com/12066560/94989781-8bd26280-0577-11eb-9482-26faff60e95d.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 Simple cookie consent for Piwigo
+
+
 
 Due to the recent GDPR / Cookie law , websites must show a banner when it uses cookies. This plugin might resolve some issues related to a missing banner/notification
 Please be aware that, for as far as I can see, it is not possible to disable cookies without impacting the functional aspects of Piwigo.

@@ -1,0 +1,1 @@
+Il s'agit d'un plugin de consentement aux cookies de base. Il affiche cette fenêtre contextuelle de consentement une fois. Entièrement personnalisable avec texte et URL.

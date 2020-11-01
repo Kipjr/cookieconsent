@@ -13,13 +13,14 @@ Please be aware that, for as far as I can see, it is not possible to disable coo
 On the admin configuration page you can set the size (fullscreen or banner), a custom message and a link to a specific page related to your cookie policy.
 
 
-Piwigo uses two types of cookies:
+Piwigo uses two types of cookies. One additional persistent cookie (1y) can be set as opose of a session cookie.
 
 
 | Name        | Purpose           | Data  | Server data |
 | ------------- |:-------------:| -----:| -----:|
 | pwg_id    | session cookie  | random 32 alfanumeric id |  pwg_device\|s:7:"desktop";<br> pwg_mobile_theme\|b:0;<br> pwg_uid\|i:1;<br><b>pwg_cconsent\|b:1;</b> | 
 | pwg_remember     | auto login cookie      |   ~57 some value |
+| pwg_cc_persistent_cookie | store cookie choice on visitor device | boolean | none
 
 The bold value in 'Server data' is due to this plugin. 
 

@@ -7,8 +7,8 @@
  */
  
 #config
-
 $lang['Common configuration'] = 'Common configuration';
+$lang['Use session cookie'] = "Use session cookie instead of persistent cookie.";
 $lang['Fullscreen'] = 'Fullscreen';
 $lang['Full screen overlay'] = 'Fullscreen overlay instead of a bar in the bottom of screen.';
 $lang['Message text'] = 'Message Text';

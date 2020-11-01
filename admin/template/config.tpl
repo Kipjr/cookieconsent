@@ -23,6 +23,13 @@ jQuery(".showInfo").tipTip({
   <ul>
     <li>
       <label>
+        <input type="checkbox" name="cc_session_cookie" value="1" {if $cookieconsent.cc_session_cookie}checked="checked"{/if}>
+        <b>{'Session Cookie'|translate}</b>
+      </label>
+      <a class="icon-info-circled-1 showInfo" title="{'Use session cookie'|translate}"></a>
+    </li>  
+    <li>
+      <label>
         <input type="checkbox" name="cc_fullscreen" value="1" {if $cookieconsent.cc_fullscreen}checked="checked"{/if}>
         <b>{'Fullscreen'|translate}</b>
       </label>

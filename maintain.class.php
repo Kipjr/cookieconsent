@@ -9,6 +9,7 @@ defined('PHPWG_ROOT_PATH') or die('Hacking attempt!');
 class cookieconsent_maintain extends PluginMaintain
 {
   private $default_conf = array(
+    'cc_session_cookie'=>0,
     'cc_fullscreen' => 0,
     'cc_text' => "This website is using cookies.",
     'cc_url' => 'https://www.cookielaw.org/the-cookie-law/',

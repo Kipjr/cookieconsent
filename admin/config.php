@@ -9,6 +9,7 @@ defined('COOKIECONSENT_PATH') or die('Hacking attempt!');
 if (isset($_POST['save_config']))
 {
   $conf['cookieconsent'] = array(
+    'cc_session_cookie' => isset($_POST['cc_session_cookie']),
     'cc_fullscreen' => isset($_POST['cc_fullscreen']),
     'cc_text' => htmlspecialchars($_POST['cc_text']),
     'cc_button' => htmlspecialchars($_POST['cc_button']),

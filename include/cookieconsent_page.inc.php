@@ -4,6 +4,9 @@ defined('COOKIECONSENT_PATH') or die('Hacking attempt!');
 global $page, $template, $conf, $user, $tokens, $pwg_loaded_plugins, $cc_given;
 
 
+if(!isset($conf['cookieconsent']['cc_session_cookie']) || $conf['cookieconsent']['cc_session_cookie'] != 1)  {
+	$cc_given=(pwg_get_cookie_var("cc_persistent_cookie"))==1;
+}
 $template->assign(array(
   'cookieconsent' => $conf['cookieconsent']
   ));

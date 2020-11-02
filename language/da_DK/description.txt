@@ -1,0 +1,1 @@
+Dette er en grundlæggende plugin til accept af cookies. Den viser acceptpopup'en én gang. Kan tilpasses med tekst og URL.

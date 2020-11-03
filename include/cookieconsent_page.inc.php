@@ -7,10 +7,19 @@ global $page, $template, $conf, $user, $tokens, $pwg_loaded_plugins, $cc_given;
 if(!isset($conf['cookieconsent']['cc_session_cookie']) || $conf['cookieconsent']['cc_session_cookie'] != 1)  {
 	$cc_given=(pwg_get_cookie_var("cc_persistent_cookie"))==1;
 }
+
+#bugfix if buttontext is empty.
+if(!isset($conf['cookieconsent']['cc_accept'])){
+	$conf['cookieconsent']['cc_accept']="Accept";
+}
+else {
+	if($conf['cookieconsent']['cc_accept'] == ""){
+		$conf['cookieconsent']['cc_accept']="Accept";
+	}
+}
 $template->assign(array(
   'cookieconsent' => $conf['cookieconsent']
   ));
-
 $template->assign('cc_given',$cc_given);
 $template->assign(array(
   // this is useful when having big blocks of text which must be translated

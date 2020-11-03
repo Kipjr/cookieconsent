@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Cookie Consent
-Version: 2.10f
+Version: 2.10g
 Description: Cookie Consent 
 Plugin URI: https://piwigo.org/ext/extension_view.php?eid=888
 Author: Netcie / Kipjr

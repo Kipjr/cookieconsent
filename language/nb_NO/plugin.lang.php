@@ -14,3 +14,4 @@ $lang['Message text'] = 'Meldingstekst';
 $lang['More Info'] = 'Mer informasjon';
 $lang['Save Settings'] = 'Lagre Innstillinger';
 $lang['URL'] = 'URL';
+$lang['Use session cookie'] = 'Bruk begrenset-informasjonskapsel i stedet for vedvarende informasjonskapsel.';

@@ -1,0 +1,1 @@
+Questo è un plug-in di consenso ai cookie di base. Visualizza questo pop-up di consenso una volta. Completamente personalizzabile con testo e URL.

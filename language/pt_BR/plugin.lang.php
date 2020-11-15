@@ -14,3 +14,4 @@ $lang['Message text'] = 'Mensagem de texto';
 $lang['More Info'] = 'Mais informação';
 $lang['Save Settings'] = 'Salvar Configurações';
 $lang['URL'] = 'URL';
+$lang['Use session cookie'] = 'Use cookie de sessão em vez de cookie persistente.';

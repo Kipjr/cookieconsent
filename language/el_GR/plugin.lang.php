@@ -14,3 +14,4 @@ $lang['Full screen overlay'] = 'Επικάλυψη πλήρους οθόνης �
 $lang['Common configuration'] = 'Γενική Διαμόρφωση';
 $lang['Button text'] = 'Κείμενο κουμπιού';
 $lang['Accept'] = 'Αποδέχομαι';
+$lang['Use session cookie'] = 'Χρησιμοποιήστε session cookie αντί για μόνιμο cookie.';

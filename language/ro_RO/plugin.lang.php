@@ -13,3 +13,5 @@ $lang['More Info'] = 'Mai multe informații';
 $lang['Save Settings'] = 'Salvează setările';
 $lang['URL'] = 'URL';
 $lang['Use session cookie'] = 'Folosiți cookie de sesiune în loc de cookie persistent.';
+$lang['Full screen overlay'] = 'Suprapunere pe ecran complet în locul unei bare în partea de jos a ecranului.';
+$lang['Fullscreen'] = 'Ecran complet';

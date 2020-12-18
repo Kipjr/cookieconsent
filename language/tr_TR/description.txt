@@ -1,0 +1,1 @@
+Bu, temel bir çerez onay eklentisidir. İçerik, açılır pencerede bir kez görüntülenir. Metin ve URL ile tamamen özelleştirilebilir.

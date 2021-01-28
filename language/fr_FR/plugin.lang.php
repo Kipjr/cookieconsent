@@ -19,4 +19,4 @@ $lang['Save Settings'] = 'enregistrer les paramètres';
 $lang['More Info'] = "Plus d'informations";
 $lang['Accept'] = "J'accepte";
 
-?>
+$lang['Use session cookie'] = 'Utilisez un cookie de session au lieu d\'un cookie persistant.';

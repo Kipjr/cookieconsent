@@ -14,3 +14,4 @@ $lang['Message text'] = 'Texto del mensaje';
 $lang['More Info'] = 'Más información';
 $lang['Save Settings'] = 'Guardar los parámetros';
 $lang['URL'] = 'URL';
+$lang['Use session cookie'] = 'Utiliza cookie de sesión en lugar de cookie persistente.';

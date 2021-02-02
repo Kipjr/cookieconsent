@@ -14,3 +14,4 @@ $lang['Message text'] = 'Text del missatge';
 $lang['More Info'] = 'Més informació';
 $lang['Save Settings'] = 'Desa els paràmetres';
 $lang['URL'] = 'URL';
+$lang['Use session cookie'] = 'Utilitza galeta de sessió en comptes de galeta persistent.';

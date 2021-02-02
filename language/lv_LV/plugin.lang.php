@@ -14,3 +14,4 @@ $lang['More Info'] = 'Vairāk Informācijas';
 $lang['Fullscreen'] = 'Pilnekrāns';
 $lang['Common configuration'] = 'Vispārējā konfigurācija';
 $lang['Accept'] = 'Pieņemt';
+$lang['Use session cookie'] = 'Pastāvīgā sīkfaila vietā izmantojiet sesijas sīkfailu.';

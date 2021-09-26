@@ -6,6 +6,7 @@ Description: Cookie Consent
 Plugin URI: https://piwigo.org/ext/extension_view.php?eid=888
 Author: Netcie / Kipjr
 Author URI: https://github.com/kipjr/cookieconsent
+Has Settings: true
 */
 
 /**
@@ -41,7 +42,7 @@ if (defined('IN_ADMIN'))
   // file containing all admin handlers functions
   $admin_file = COOKIECONSENT_PATH . 'include/admin_events.inc.php';
 
-  // admin plugins menu link
+  // admin plugins menu link (see: https://piwigo.org/doc/doku.php?id=dev:changes_in_2.11 )
   add_event_handler('get_admin_plugin_menu_links', 'cookieconsent_admin_plugin_menu_links',
     EVENT_HANDLER_PRIORITY_NEUTRAL, $admin_file);
 

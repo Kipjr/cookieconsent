@@ -1,12 +1,17 @@
 <?php
 /*
 Plugin Name: Cookie Consent
-Version: 2.10g
+Version: 12.0.0a
 Description: Cookie Consent 
 Plugin URI: https://piwigo.org/ext/extension_view.php?eid=888
 Author: Netcie / Kipjr
 Author URI: https://github.com/kipjr/cookieconsent
 Has Settings: true
+
+Changelog :
+ 12.0.0a (2021-10-10) : Piwigo 12 compatibility (12.0.0RC1)
+ 2.10g   (2020-11-03) : Bugfix: empty button_text returns no button.
+
 */
 
 /**
@@ -67,9 +72,9 @@ else
 function cookieconsent_init()
 {
 
-	global $conf;
-	global $cc_given;
-	$cc_given = pwg_get_session_var('cconsent');
+  global $conf;
+  global $cc_given;
+  $cc_given = (pwg_get_session_var('cconsent'))!= null ? pwg_get_session_var('cconsent') : 0; //check server side if consent is given
   // load plugin language file
   load_language('plugin.lang', COOKIECONSENT_PATH);
 

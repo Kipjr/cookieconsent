@@ -12,7 +12,7 @@ if (isset($_POST['save_config']))
     'cc_session_cookie' => isset($_POST['cc_session_cookie']),
     'cc_fullscreen' => isset($_POST['cc_fullscreen']),
     'cc_text' => htmlspecialchars($_POST['cc_text']),
-    'cc_button' => htmlspecialchars($_POST['cc_button']),
+    'cc_url_text' => htmlspecialchars($_POST['cc_url_text']),
     'cc_url' => htmlspecialchars($_POST['cc_url']),
     'cc_accept'=> htmlspecialchars($_POST['cc_accept']),
     );

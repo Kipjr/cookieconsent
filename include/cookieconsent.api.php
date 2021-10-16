@@ -17,7 +17,7 @@ if($array['consent']==true){
 		$fpath = $_SERVER['REQUEST_URI']; #"/piwigo/plugins/cookieconsent/include/cookieconsent.api.php";
 		$cpath = substr($fpath,0,strpos($fpath,"plugins/cookieconsent/include/cookieconsent.api.php")); #returns part before 'plugins', here /piwigo/
 		setcookie('pwg_cc_persistent_cookie', true, array ( # since PHP 7.3.0
-				'expires' => time() + (86400 * 365),
+				'expires' => time() + (86400 * $conf['cookieconsent']['cc_cookie_validity']),
 				'path' => $cpath,
 				'samesite' => 'Strict', # None || Lax  || Strict
 			)

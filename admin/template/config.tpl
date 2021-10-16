@@ -27,7 +27,7 @@ jQuery(".showInfo").tipTip({
         <b>{'Session Cookie'|@translate}</b>
       </label>
       <a class="icon-info-circled-1 tiptip" title="{'Use session cookie'|@translate}"></a>
-    </li>  
+    </li>
     <li>
       <label>
         <input type="checkbox" name="cc_fullscreen" value="1" {if $cookieconsent.cc_fullscreen}checked="checked"{/if}>
@@ -35,6 +35,20 @@ jQuery(".showInfo").tipTip({
       </label>
       <a class="icon-info-circled-1 tiptip" title="{'Full screen overlay'|@translate}"></a>
     </li>
+    <li>
+      <label>
+        <b>{'Persistent Cookie validity'|@translate}</b>
+      <a class="icon-info-circled-1 tiptip" title="{'Cookie validity text'|@translate}"></a><br>
+        <select  name="cc_cookie_validity">
+		<option value=1 	{if $cookieconsent.cc_cookie_validity ==1} selected=selected {/if}>{'1 Day'|@translate}</option>
+		<option value=7 	{if $cookieconsent.cc_cookie_validity ==7} selected=selected {/if}>{'7 Days'|@translate}</option>
+		<option value=30 	{if $cookieconsent.cc_cookie_validity ==30} selected=selected {/if}>{'30 Days'|@translate}</option>
+		<option value=90 	{if $cookieconsent.cc_cookie_validity ==90} selected=selected {/if}>{'3 Months'|@translate}</option>
+		<option value=180 	{if $cookieconsent.cc_cookie_validity ==180} selected=selected {/if}>{'6 Months'|@translate}</option>
+		<option value=365 	{if $cookieconsent.cc_cookie_validity ==365} selected=selected {/if}>{'1 Year'|@translate}</option>
+		</select>
+      </label>
+    </li>  	
     <li >
       <label>
         <b>{'Message text'|@translate}</b><br>

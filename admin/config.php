@@ -8,9 +8,12 @@ defined('COOKIECONSENT_PATH') or die('Hacking attempt!');
 // save config
 if (isset($_POST['save_config']))
 {
+  $validArray = array(1,7,30,90,180,365);
+  $validity = in_array($_POST['cc_cookie_validity'], $validArray) ? $_POST['cc_cookie_validity'] : 90;
   $conf['cookieconsent'] = array(
     'cc_session_cookie' => isset($_POST['cc_session_cookie']),
     'cc_fullscreen' => isset($_POST['cc_fullscreen']),
+    'cc_cookie_validity' => $validity,
     'cc_text' => htmlspecialchars($_POST['cc_text']),
     'cc_url_text' => htmlspecialchars($_POST['cc_url_text']),
     'cc_url' => htmlspecialchars($_POST['cc_url']),

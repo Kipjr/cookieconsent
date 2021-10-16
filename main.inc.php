@@ -74,7 +74,7 @@ function cookieconsent_init()
 
   global $conf;
   global $cc_given;
-  $cc_given = (pwg_get_session_var('cconsent'))!= null ? pwg_get_session_var('cconsent') : 0; //check server side if consent is given
+  $cc_given = (pwg_get_session_var('cconsent'))!= null ? pwg_get_session_var('cconsent')==1 : false; //check server side if consent is given
   // load plugin language file
   load_language('plugin.lang', COOKIECONSENT_PATH);
 

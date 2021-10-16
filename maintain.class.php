@@ -11,6 +11,7 @@ class cookieconsent_maintain extends PluginMaintain
   private $default_conf = array(
     'cc_session_cookie'=>0,
     'cc_fullscreen' => 0,
+    'cc_cookie_validity' => 90,
     'cc_text' => "This website is using cookies.",
     'cc_url_text' => "The Cookie Law",
     'cc_url' => 'https://www.cookielaw.org/the-cookie-law/',

@@ -1,0 +1,1 @@
+To je osnovni vtičnik za soglasje za piškotke. To pojavno okno za soglasje prikaže enkrat. Popolnoma prilagodljiv z besedilom in URL-jem.

@@ -14,3 +14,4 @@ $lang['More Info'] = 'Viac informácií';
 $lang['Save Settings'] = 'Uložiť nastavenia';
 $lang['URL'] = 'Adresa URL';
 $lang['Use session cookie'] = 'Použiť cookie sedenia miesto trvalého cookie.';
+$lang['Full screen overlay'] = 'Prekrytie na celú obrazovku namiesto pruhu v spodnej časti obrazovky.';

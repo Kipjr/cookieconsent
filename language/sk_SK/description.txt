@@ -1,0 +1,1 @@
+Toto je základný doplnok pre súhlas so súbormi cookie. Toto kontextové okno so súhlasom sa zobrazí raz. Plne prispôsobiteľné pomocou textu a adresy URL.

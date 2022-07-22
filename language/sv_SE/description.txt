@@ -1,0 +1,1 @@
+Detta är ett grundläggande cookie-insticksprogram för samtycke. Den visar detta samtyckespopup en gång. Fullt anpassningsbar med text och URL.

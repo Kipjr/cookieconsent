@@ -1,0 +1,1 @@
+Jedná se o základní doplněk pro zobrazení souhlasu se soubory cookie. Zobrazí jednou vyskakovací okno. Plně přizpůsobitelný text a adresa URL.

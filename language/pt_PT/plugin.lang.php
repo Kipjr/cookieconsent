@@ -14,3 +14,4 @@ $lang['More Info'] = 'Mais informação';
 $lang['Save Settings'] = 'Salvar definições';
 $lang['URL'] = 'URL';
 $lang['Use session cookie'] = 'Usar cookie de sessão em vez de cookie persistente';
+$lang['Full screen overlay'] = 'Sobreposição em tela cheia em vez de uma barra na parte inferior da tela.';

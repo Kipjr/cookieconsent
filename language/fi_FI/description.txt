@@ -1,0 +1,1 @@
+Tämä on perinteinen evästeiden suostumuslisäosa. Se näyttää tämän suostumus popup-ikkunan kerran. Täysin muokattavat tekstit ja URL-osoitteet.

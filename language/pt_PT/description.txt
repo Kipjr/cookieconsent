@@ -1,0 +1,1 @@
+Este é um plugin básico de consentimento de cookies. Ele exibe este pop-up de consentimento uma vez. Totalmente personalizável com texto e URL.
